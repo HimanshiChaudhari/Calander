@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.calendar-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+#calendar {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendar th,
+#calendar td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#calendar th {
+    background-color: #333;
+    color: white;
+}
+
+.event-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+#event-list {
+    list-style-type: none;
+    padding: 0;
+    width: 70%;
+}
+
+.sunday {
+    background-color: #edb6b6;
+    color: #ff0000;
+}
+
+.event-date {
+    color: #231f56;
+    background-color: #a8a8f5;
+    /* You can adjust the style as needed */
+}
+
+.selected-cell {
+    background-color: #c4e1f9;
+}
+
+.event-list-container {
+    width: 70%;
+}
+
+.event-buttons-container {
+    width: 30%;
+    display: relative;
+}
+#loading-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Adjust the style for the selected cell 
+
+
+#addEventOP, #deleteEventOP {
+    padding: 5px 10px;
+    background-color: lightgreen;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: green;
+}
+
+#addEventOP:hover, #deleteEventOP:hover {
+    background-color: white;
+    border: 1px solid green; 
+    box-shadow: 3px 3px 2px green;
+}*/
